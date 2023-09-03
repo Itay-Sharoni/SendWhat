@@ -1,6 +1,6 @@
 const launchChat = (number) => {
-    let url = "https://api.whatsapp.com/send/?phone=" + number;
-    chrome.tabs.query({url: "*://api.whatsapp.com/*"}, (tabs) => {
+    let url = "https://api.SendWhat.com/send/?phone=" + number;
+    chrome.tabs.query({url: "*://api.SendWhat.com/*"}, (tabs) => {
         let tab = null;
         tab = tabs[0];
         if (!tab) {
@@ -15,7 +15,7 @@ const formatNumber = (number) => {
     return number.replace(/[\+\(\)\-\.\,\s]/g, '');
 };
 
-const redirectWhatsapp = () => {
+const redirectSendWhat = () => {
     let number = document.querySelector('#phone');
     number = formatNumber(number.value);
     launchChat(number);
