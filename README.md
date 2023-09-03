@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
 
-  <h1><img src="/src/img/icon.png"> SendWhats-Sender - This is now archived.</h1>
+  <h1><img src="/src/img/icon.png"> SendWhat-Sender - This is now archived.</h1>
   
   
   <img width="50%" src="https://user-images.githubusercontent.com/48857416/165642616-8dd56457-b6ce-4fb4-966b-7e85e77c3ab6.png">
